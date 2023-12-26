@@ -1,4 +1,4 @@
-import { AuthContext } from "@/pages/context/AuthContext";
+import { AuthContext } from "@/context/AuthContext";
 import { base_url } from "@/util/baseUrl";
 import axios from "axios";
 import { useRouter } from "next/router";

@@ -3,7 +3,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { useFormik } from "formik";
 import React, { useContext } from "react";
 import * as Yup from 'yup';
-import { AuthContext } from "./context/AuthContext";
+import { AuthContext } from "../context/AuthContext";
 import { useRouter } from "next/router";
 
 const Login = () => {

@@ -3,7 +3,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { useFormik } from "formik";
 import React, { useContext, useEffect } from "react";
 import * as Yup from 'yup';
-import { AuthContext } from "./context/AuthContext";
+import { AuthContext } from "../context/AuthContext";
 import { useRouter } from "next/router";
 import axios from 'axios';
 import { base_url } from "@/util/baseUrl";
